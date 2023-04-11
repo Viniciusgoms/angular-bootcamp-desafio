@@ -1,0 +1,70 @@
+.cabecalho__container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: auto;
+  height: 40px;
+  gap: 60px;
+  box-sizing: border-box;
+}
+
+.logo__container {
+  width: 350px;
+  height: auto;
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo {
+  height: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  box-sizing: border-box;
+}
+
+.logo >a >img{
+  width: 160px;
+  height: auto;
+}
+
+.pesquisa__container {
+  border: solid 2px rgb(232, 243, 247);
+  border-radius: 5px 5px 5px 5px;
+  background: rgb(244, 247, 249);
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.pesquisa {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 10px;
+  background: inherit;
+  width: 600px;
+  max-width: 100vh;
+}
+
+.pesquisa > input {
+  border: inherit;
+  background: inherit;
+  border-radius: inherit;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  font-size: 18px;
+}
+
+.pesquisa > button {
+  cursor:pointer;
+  background: inherit;
+}
+
+.pesquisa > button >img {
+  background: inherit;
+
+}

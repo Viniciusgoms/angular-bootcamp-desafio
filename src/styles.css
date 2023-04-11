@@ -1,0 +1,39 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  color: black;
+  font-family: 'Segoe UI';
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  display: block;
+  cursor: pointer;
+  border: none;
+  background: inherit;
+}
+
+

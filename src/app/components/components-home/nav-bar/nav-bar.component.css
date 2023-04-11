@@ -1,0 +1,15 @@
+.nav__container{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.list > ul{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.list > ul > li {
+  font-size: 18px;
+  font-weight: bold;
+}

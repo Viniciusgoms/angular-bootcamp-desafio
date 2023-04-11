@@ -1,0 +1,30 @@
+.home-secundario__container{
+
+  height: 100%;
+  width: 420px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+}
+
+.branch-channel__container{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.branch-channel{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list-card{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
